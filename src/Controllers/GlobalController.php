@@ -2,11 +2,9 @@
 
 namespace Adibnoh\Fav\Controllers;
 
-use App\Http\Controllers\Controller;
-
 use Carbon\Carbon;
 
-class GlobalController extends Controller
+class GlobalController
 {
 
     /**
@@ -26,7 +24,7 @@ class GlobalController extends Controller
     /**
      * Convert string to url - append with http if string does not contain http
      */
-    public function convertStringToUrl($url, $protocol = 'https://')
+    public function convertStringToUrl(String $url, String $protocol = 'https://')
     {
         if (!$url) {
             return;

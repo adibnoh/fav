@@ -16,4 +16,5 @@ class TestCase extends OrchestraTestCase
     {
         return ['Fav' => 'Adibnoh/Fav/Facade/Fav'];
     }
+    
 }
