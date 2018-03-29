@@ -7,7 +7,9 @@
     "authors": [
         {
             "name": "adibnoh",
-            "email": "bromatrik@gmail.com"
+            "email": "bromatrik@gmail.com",
+            "homepage": "https://adibnoh.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
@@ -20,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-          "Adibnoh\\": "src/"
+          "Adibnoh\\Fav\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Adibnoh\\Tests\\": "tests/"
+            "Adibnoh\\Fav\\Tests\\": "tests/"
         }
     },
     "extra": {

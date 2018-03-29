@@ -1,8 +1,8 @@
 <?php
 
-namespace Adibnoh\Tests\Unit;
+namespace Adibnoh\Fav\Tests\Unit;
 
-use Adibnoh\Tests\TestCase;
+use Adibnoh\Fav\Tests\TestCase;
 
 class ExampleTest extends TestCase
 {

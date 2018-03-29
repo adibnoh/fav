@@ -13,6 +13,14 @@ class FavServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
+        // $this->publishes([
+        //     __DIR__.'/config/fav.php' => config_path('fav.php'),
+        // ]);
+
+        // $this->mergeConfigFrom(
+        //     __DIR__ . '/../../config/fav.php', 'fav'
+        // );
         
     }
 

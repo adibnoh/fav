@@ -427,4 +427,9 @@ class GlobalController extends Controller
         return $bytes;
     }
 
+    public function getSecretKey()
+    {
+        return config('fav.secret_key');
+    }
+
 }
